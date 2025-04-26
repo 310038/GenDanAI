@@ -1,0 +1,272 @@
+[33mcommit 6a882b7bccaefcfcd98ba5dad9d93b5e0e6ced6c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mandy-dev[m[33m, [m[1;31morigin/amazon-aio[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mamazon-aio[m[33m)[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Fri Apr 11 07:28:10 2025 +0000
+
+    feat: integrate Amazon Bedrock MCP support
+    
+    Add Bedrock MCP Python extension and related UI components:
+    * Create bedrock_mcp_python extension with implementation files
+    * Add MCP settings UI components in playground
+    * Implement server-side HTTP client for MCP communication
+    * Update configuration files for MCP integration
+    * Modify ConnectButton and SettingsDialog for MCP support
+
+[33mcommit d81bacd76e599a4e462385acef281da62eaf88d7[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Sat Mar 22 17:34:46 2025 +0000
+
+    update model load logic
+
+[33mcommit 3f03e93ce9cc972dc932c04cddd48b043f71050b[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Sat Mar 22 17:24:45 2025 +0000
+
+    add denosing module ahead of asr
+
+[33mcommit d9d06f31d4d67fc5eaefe6d93cdf2d3b291a40c2[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Wed Mar 5 14:06:39 2025 +0000
+
+    add support for dify
+
+[33mcommit 2513b30e29ac881a2f2b917c46cd8dbcbe76270a[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Wed Feb 19 09:39:10 2025 +0000
+
+    feat: redesign UI and improve system configuration
+    
+    refactor: move settings into a dialog component
+    feat: add info and description popups in header
+    feat: integrate system prompt configuration
+    style: simplify home page layout
+
+[33mcommit 40380a2b51d62d9fbed4733882f1428d692abf59[m
+Author: Bin Chen <fengzhishuiwo@163.com>
+Date:   Wed Feb 12 16:51:39 2025 +0800
+
+    Update constant.ts
+    
+    Set `Chat` mode as default
+
+[33mcommit 036b6b66cc1a46de09adacec0997c632c7d66995[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Fri Jan 10 08:10:54 2025 +0000
+
+    add workshop guide; add fishaudio
+
+[33mcommit 7593cdd543fe97085c54b2fa9945693fd7246ee9[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Wed Jan 8 03:59:44 2025 +0000
+
+    update gpt-sovits
+
+[33mcommit 82632c7a2e2f889c63b6f947b8b5c1e6283a2575[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Wed Jan 8 03:43:51 2025 +0000
+
+    add ref to workshop and tts-on-sagemaker repos
+
+[33mcommit 13096c46cb1f13c706a36973bc6314784f68e25d[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Thu Dec 19 07:54:43 2024 +0000
+
+    update xtts language code
+
+[33mcommit f84b4e188e6442f33d184c6e1a978726818b977d[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Thu Dec 19 07:34:05 2024 +0000
+
+    add xtts model support
+
+[33mcommit 6373a2206ff2fde68cfc670a96c20aec19fef350[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Sun Oct 20 10:23:45 2024 +0000
+
+    add sagemaker_llm extension
+    
+    allow using LLMs hosting on Amazon SageMaker.
+
+[33mcommit 1a062d69fce5cfa3e847e9e81a281746d79202f6[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Fri Oct 18 08:33:28 2024 +0000
+
+    update ui: allow set greeting message; new lang: Chinese Tranditional
+
+[33mcommit 34506af5d3951c2c3f0c2ea1f656b360e053fc3a[m
+Author: Bin Chen <binc@amazon.com>
+Date:   Thu Oct 17 14:12:10 2024 +0000
+
+    fix bedrock_llm_ext bug; add Hindi language
+
+[33mcommit b15023915c99d0175ab74861c03e1b22942cdf91[m
+Author: Chen188 <hidden>
+Date:   Mon Oct 14 08:39:33 2024 +0000
+
+    update bedrock data parser
+
+[33mcommit b246beeedfd971f1a3ab7633ce2f05268097bd3c[m
+Author: Chen188 <hidden>
+Date:   Tue Sep 10 08:17:23 2024 +0000
+
+    update UI: add partial stable option
+
+[33mcommit a0f27fdc400af4b8e468f32b4f28d2a84a08d7ed[m
+Author: Chen188 <hidden>
+Date:   Tue Sep 10 07:22:37 2024 +0000
+
+    fix
+
+[33mcommit 636f75ba7b70c5a62489ea1fd2a7d1f35319b734[m
+Author: Chen188 <hidden>
+Date:   Mon Sep 9 11:50:32 2024 +0000
+
+    add transcribe partial_result_stablization mode.
+    * using partial result to reduce wait time for translation mode
+
+[33mcommit 97309e2c207f9632b72484e92a5e4f5a2657d11e[m
+Author: Chen188 <hidden>
+Date:   Fri Sep 6 11:07:56 2024 +0000
+
+    add transcribe-sagemaker graph example
+
+[33mcommit 4de99cdcaaaac9102c5c15eb33d6a1f9f053adee[m
+Author: Chen188 <hidden>
+Date:   Mon Sep 2 07:45:47 2024 +0000
+
+    update doc
+
+[33mcommit 5f0b7aeddde14567a3f471459e5feee79ad6f764[m
+Author: Chen188 <hidden>
+Date:   Mon Sep 2 07:42:08 2024 +0000
+
+    update doc
+
+[33mcommit ba4bb94d350edec0673f6bea4423588cc703f77a[m
+Author: Chen188 <hidden>
+Date:   Wed Aug 28 14:34:08 2024 +0000
+
+    fix: remove generative engine for regions except us-east-1
+
+[33mcommit 6ea3fc25f699ea45d733a1b1188c6b5d4c7771d3[m
+Author: Bin Chen <fengzhishuiwo@163.com>
+Date:   Wed Aug 28 12:32:14 2024 +0800
+
+    Update docker-compose.yml
+
+[33mcommit 51b7d60d9e27d8c77849e987b91a8e863dc6c824[m
+Author: Bin Chen <fengzhishuiwo@163.com>
+Date:   Mon Aug 19 14:47:44 2024 +0800
+
+    Update docker-compose.yml
+
+[33mcommit ac84d1174c1c1c36658b8a21b210c45e0dbff281[m
+Author: Chen188 <hidden>
+Date:   Sat Aug 17 15:59:44 2024 +0000
+
+    * new: add sagemaker_tts extension
+    * new: add translation mode in playground
+    * update: add more languages in playground
+
+[33mcommit 1f99d2ea761f4743847cc2ba044218c1301bb5b6[m
+Author: Chen188 <hidden>
+Date:   Wed Aug 14 05:38:30 2024 +0000
+
+    fix
+
+[33mcommit b6c4e48efa0967d7dfbc94f82228b1ca13293ff3[m
+Author: Chen188 <hidden>
+Date:   Tue Aug 13 14:28:15 2024 +0000
+
+    set transcribe and polly init param from api; update transcribe graph to display chat in playground; other code improvements.
+
+[33mcommit 999442c647b428783a403f68f8713ee3ec800da1[m
+Author: Chen188 <hidden>
+Date:   Fri Aug 9 05:52:54 2024 +0000
+
+    amazon all in one demo
+
+[33mcommit 739b0b5a09c421135f9c8ceccae4038efec26617[m
+Author: Bin Chen <fengzhishuiwo@163.com>
+Date:   Fri Aug 9 09:51:48 2024 +0800
+
+    add transcribe_asr extension; optimize bedrock_llm extension; fix polly_tts bugs (#174)
+    
+    * add transcribe_asr_python extension
+    
+    * bedrock_llm_extension: add time buffer for model response.
+    
+    * polly_tts_extension: remove on_init, fix sample_rate data type.
+    
+    ---------
+    
+    Co-authored-by: Chen188 <hidden>
+
+[33mcommit 239dcf0c58aadc0d45877dbc2f534163fb81d89d[m
+Author: sunshinexcode <24xinhui@163.com>
+Date:   Wed Aug 7 17:07:08 2024 +0800
+
+    Feat add litellm extension (#165)
+    
+    * feat(): add litellm extension
+    
+    * chore(): remove duplicate register_addon_as_extension and simplify extension name
+    
+    * chore(): upgrade to be compatible with the new version of RTE
+    
+    * chore(): modify log
+    
+    * chore(): modify log
+    
+    * fix(): fix api_key
+    
+    * chore(): optimize litellm
+    
+    * chore(): modify comment
+    
+    * chore(): modify litellm usage
+
+[33mcommit 8fa589f615aa1d7ba2bf48e9ae2ced65bc6077fd[m
+Author: Hadouken <2340896+cyfyifanchen@users.noreply.github.com>
+Date:   Wed Aug 7 10:08:15 2024 +0800
+
+    Fixing the broken url of banner img (#169)
+    
+    * Swapping the order of creating env and creating property.json
+    
+    * Revert "Swapping the order of creating env and creating property.json"
+    
+    This reverts commit 5f81393f68fdf46bb8535ff6224ff1126066253e.
+    
+    * Fixing the url of banner img
+
+[33mcommit f6cbaa27e6e70ca8e017270b0f811936d410e38f[m
+Author: Hadouken <2340896+cyfyifanchen@users.noreply.github.com>
+Date:   Wed Aug 7 09:40:51 2024 +0800
+
+    Updating readmes and as well as removing unnecessary assets (#167)
+    
+    * Updating readmes and as well as removing unnecessary assets
+    
+    * Swapping the order of cping .env and property.json
+
+[33mcommit 5a82338450250b221a5699a2c592dcc73ce4934e[m[33m ([m[1;31morigin/bedrock-main[m[33m)[m
+Author: Hadouken <2340896+cyfyifanchen@users.noreply.github.com>
+Date:   Mon Aug 5 15:36:24 2024 +0800
+
+    Updating readmes. (#161)
+
+[33mcommit 7ae87bb5ebd5ea5f125e9d0664c07f08b7f7f6ec[m
+Author: sunshinexcode <24xinhui@163.com>
+Date:   Mon Aug 5 14:01:54 2024 +0800
+
+    remove on_init/on_deinit (#160)
+    
+    * chore(): specify image version
+    
+    * chore(): remove on_init/on_deinit
+    
+    * chore(): update astra_playground version
+
+[33mcommit 38e1738eddb8cb92957c4e33bbe78259542dfbf1[m
+Author: Ethan Zhang <qianze.zhang@hotmail.com>
+Dat
